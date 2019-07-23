@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension FacilityOfferMakeEditViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -&gt; Bool {
+        textField.resignFirstResponder()
+        // 次のTag番号を持っているテキストボックスがあれば、フォーカスする
+        let nextTag = textField.tag + 1
+        if let nextTextField = self.view.viewWithTag(nextTag) {
+            nextTextField.becomeFirstResponder()
+        }
+        return true
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5D8406FC-0B33-47D0-99E2-B92DA15EFE4C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tag responder textfield</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

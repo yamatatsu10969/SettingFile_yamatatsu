@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let rightCloseButton = UIBarButtonItem()
+        rightCloseButton.title = "完了"
+        rightCloseButton.tintColor = Color.Palette.bwLight100
+        rightCloseButton.target = self
+        rightCloseButton.action = #selector(completeButtonTapped(_:))
+        navigationItem.rightBarButtonItem = rightCloseButton
+        
+        @objc private func completeButtonTapped(_ sender: UIBarButtonItem) {
+            
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6C1F55A7-2E87-4675-A9DE-C1D338616CB8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>navigation right button complete</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

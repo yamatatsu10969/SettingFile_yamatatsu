@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>let leftIcon = UIImage(named: "cancel")
+let leftIconSize = CGRect(origin: CGPoint.zero, size: CGSize(width: 24, height: 24))
+let leftIconButton = UIButton(frame: leftIconSize)
+leftIconButton.setBackgroundImage(leftIcon, for: .normal)
+let leftBarButton = UIBarButtonItem(customView: leftIconButton)
+
+leftIconButton.addTarget(self, action: #selector(cancelButtonTapped(_:)), for: .touchUpInside)
+let currWidth = leftBarButton.customView?.widthAnchor.constraint(equalToConstant: 24)
+currWidth?.isActive = true
+let currHeight = leftBarButton.customView?.heightAnchor.constraint(equalToConstant: 24)
+currHeight?.isActive = true
+navigationItem.leftBarButtonItem = leftBarButton
+
+@objc func cancelButtonTapped(_ sender: Any) {
+    self.dismiss(animated: true) {
+        
+        }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>99C9DC80-AA55-4E20-8361-F6987553FC00</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>create bar button item (left)</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>navigationBar button item(left)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
