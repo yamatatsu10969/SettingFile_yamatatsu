@@ -8,6 +8,9 @@
 ## iterm2 + powerline 入れる
 https://qiita.com/nakajmg/items/500342ef4d7595b47556
 
+## powerline font
+https://qiita.com/park-jh/items/557a9d5b470947aef2f5
+
 
 ## bash
 Bash-it 入れよう
