@@ -1,5 +1,7 @@
 # FirstSetting for Mac 
 
+- キーボードとマウスの設定
+
 ・Xcode入れる
 ・メールのセットアップ
      thunderbird install
@@ -21,5 +23,4 @@
 ・GitHub登録
 ・GitとクライアントのSSH接続
 ・Gitとitermの接続
-
 
