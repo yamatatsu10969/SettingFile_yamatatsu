@@ -26,4 +26,5 @@ zshの時は、
 .zplug を入れよう。
 https://qiita.com/Jung0/items/300f8b83520e56766f22
 
-## Commonファイル
+## スクリーンショットの保存先を変更する
+https://qiita.com/mamohacy/items/559af38aacb7a17a1600
