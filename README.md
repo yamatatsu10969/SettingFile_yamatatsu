@@ -14,6 +14,9 @@ https://qiita.com/park-jh/items/557a9d5b470947aef2f5
 ## iterm2 で git の ssh認証
 https://qiita.com/katsukii/items/9fd5bbe822904d7cdd0a
 
+## Tig を入れる
+https://qiita.com/suino/items/b0dae7e00bd7165f79ea
+
 ## bundler や ruby のバージョンが違うよって言われるとき （pathを変更する）
 https://qiita.com/SAYJOY/items/be06302ae8a2fac7f0c4
 
