@@ -35,3 +35,11 @@ https://qiita.com/mamohacy/items/559af38aacb7a17a1600
 ## Clipy
 https://clipy-app.com/
 
+## Alfred を入れろ！！！
+
+## .gitconfig に追加
+```
+[alias]
+  p = !git push origin `git rev-parse --abbrev-ref HEAD`
+```
+
